@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Archivos de datos locales y cache
+data/
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# Entornos y dependencias
+.venv/
+__pycache__/
+*.pyc
+
+# dbt
+dbt_transforms/target/
+dbt_transforms/dbt_packages/
+dbt_transforms/logs/
+
+# Variables de entorno
+.env
